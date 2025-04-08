@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "localholt:5002",
+  baseURL: "https://stack-overflow-eosin-delta.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {
